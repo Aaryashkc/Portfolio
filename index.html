@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/9978a06977.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/Aaryash kc 1.png" class="logo">
+        <ul id="sideMenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+      </nav>
+      <div class="header-text">
+        <p>Cybersecurity Enthusiast |<br>Aspiring Web Developer</p>
+        <h1>Hi, I'm <span class="color-shift">Aaryash</span> Kc <br><span class="fade-text">Welcome To My Portfolio.</span></h1>
+      </div>
+    </div>
+  </div>
+<!-- ---------------About Me---------------  -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img width="450px" src="images/about1.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I'm a cybersecurity student with a passion for building secure, efficient, and user-friendly web applications. With a background in cybersecurity, I understand the importance of security in every layer of development. Now, I'm expanding my skills in web development to create websites and applications that are not only engaging but also resilient against today’s digital threats.</p>
+          
+          <div class="tab-title">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Network Security</span><br>Protecting data across networks</li>
+              <li><span>Cryptography</span><br>Securing information with encryption techniques</li>
+              <li><span>System Security</span><br>Defending systems from threats and maintaining data integrity</li>
+              <li><span>Full-Stack Development</span><br>Developing both the front-end and back-end of web applications for complete functionality.</li>
+              <li><span>UI/UX</span><br>Desighning Web/App interfaces</li>
+              <li><span>Graphics Designing</span><br>Visual content to communicate ideas and messages</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2024-current</span><br>Graphics Designing and UI/UX</li>
+              <li><span>2024-2024</span><br>Internship</li>
+              <li><span>2023-2024</span><br>Network support and security at credly</li>
+              <li><span>2022-2023</span><br>Networking basics at credly</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2023-current</span><br>Bachelor of Computer Science(hons)</li>
+              <li><span>2022</span><br>+2 Science Biology Stream </li>
+              <li><span>2019</span><br>SEE</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ------------Services/projects----------------- -->
+   <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-laptop-code"></i>  
+          <h2>Web Development</h2>
+          <p>Creating custom websites and applications tailored to your needs, ensuring a seamless user experience, mobile responsiveness, and optimized performance</p>
+          <a href="">View My Projects</a>
+        </div>
+
+        <div>  
+          <i class="fa-solid fa-crop"></i>
+          <h2>Web Design</h2>
+          <p>Crafting visually appealing and user-friendly websites, with a focus on aesthetics, navigation, and responsive design for an engaging user experience</p>
+          <a href="">View My Projects</a>
+        </div>
+
+        <div>  
+          <i class="fa-solid fa-palette"></i>
+          <h2>Graphic Design</h2>
+          <p>Designing creative visuals that communicate your brand’s message, from logos to marketing materials, ensuring impactful, memorable, and effective designs</p>
+          <a href="">View My Projects</a>
+        </div>
+
+        <div>  
+          <i class="fa-brands fa-figma"></i>
+          <h2>UI/UX Design</h2>
+          <p>Creating seamless, user-centric designs that enhance interaction and usability, ensuring intuitive navigation and a delightful experience across devices.s</p>
+          <a href="">View My Projects</a>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- ---------------------Portfolio--------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/FOOD (3).png" alt="">
+            <div class="layer">
+              <h3>Food Donation Website</h3>
+              <p>"Foodभोक" is a platform dedicated to food donations, helping those in need with simple and quick access to meals. Join us in making a difference today!</p>
+              <a href="https://youtu.be/hSycQpcur2I?si=CYzmLHx0p0AOYIIA" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Coming (2).png" alt="">
+            <div class="layer">
+              <h3>Coming soon..</h3>
+              <p>Exciting projects are coming soon – stay tuned for what's next!</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="work">
+            <img src="images/Coming (2).png" alt="">
+            <div class="layer">
+              <h3>Coming soon..</h3>
+              <p>Exciting projects are coming soon – stay tuned for what's next!</p>
+              <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!-- -------------Contact me----------------------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact ME</h1>
+            <p><i class="fa-solid fa-envelope"></i>aaryashkc@outlook.com</p>
+            <p><i class="fa-solid fa-phone"></i>+977 9807295507</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/share/18DdeBDrQX/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://x.com/kc_aaryash?t=SrkfKiQdQcnuhFlQjDqg_g&s=09" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/aaryash-kc-73440525b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Aaryashkc" target="_blank"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.instagram.com/page.aaryash/profilecard/?igsh=bGF3d3kwNXV6aTRs" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <a href="images/Aaryash_kc.pdf.pdf" download class="btn btn2">Download Cv</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Full Name" required>
+              <input type="email" name="Email" placeholder="Your Email Address" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Thank you for visiting my portfolio. I hope you enjoyed exploring my work, and I look forward to connecting! <i class="fa-solid fa-heart"></i></p>
+      </div>
+    </div>
+<!-- ---------Script for the about section-------------- -->
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+    // ------------end of the about section-----------------
+  </script>
+
+  <!-- ------------------------for sideMenu------------------- -->
+   <script>
+    var sideMenu = document.getElementById("sideMenu");
+
+    function openmenu(){
+      sideMenu.style.right ="0";
+    }
+
+    function closemenu(){
+      sideMenu.style.right ="-200px";
+    }
+   </script>
+
+   <!-- -------------------contact form----------------- -->
+
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw8D9RMlDEK405VHlK60vHJcsG6j-veQmN751cgZGGVp7l1nIDMihngWgwdRKbDxB9X/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message Sent Successfully"
+          setTimeout(function(){
+            msg.innerHTML= ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
