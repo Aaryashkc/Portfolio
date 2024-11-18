@@ -429,22 +429,22 @@ nav .fa-solid{
   display: none;
 }
 @media only screen and (max-width:600px){
-  .logo {
-    width: 120px; /* Adjust logo size as needed */
+  .logo{
+    width: 130px;
   }
   #header{
     background-image: url(images/background3.jpg);
   }
   .header-text{
-    margin-top: 30%;
+    margin-top: 20%;
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 300;
   }
 
   .header-text h1{
     font-size: 30px;
-    margin-top: 10%;
     font-weight: 600;
+    margin-top: 3%;
   }
 
   nav .fa-solid{
